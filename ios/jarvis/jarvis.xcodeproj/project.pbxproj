@@ -20,6 +20,7 @@
 		3102327A197BDD1000BF2BC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3102325C197BDD0F00BF2BC2 /* UIKit.framework */; };
 		31023282197BDD1000BF2BC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31023280197BDD1000BF2BC2 /* InfoPlist.strings */; };
 		31023284197BDD1000BF2BC2 /* jarvisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31023283197BDD1000BF2BC2 /* jarvisTests.m */; };
+		316C354F197BFE8C0021DFA4 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 316C354E197BFE8C0021DFA4 /* circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3102327F197BDD1000BF2BC2 /* jarvisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jarvisTests-Info.plist"; sourceTree = "<group>"; };
 		31023281197BDD1000BF2BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31023283197BDD1000BF2BC2 /* jarvisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jarvisTests.m; sourceTree = "<group>"; };
+		316C354E197BFE8C0021DFA4 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		3102325F197BDD0F00BF2BC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				316C354E197BFE8C0021DFA4 /* circle.png */,
 				31023260197BDD0F00BF2BC2 /* jarvis-Info.plist */,
 				31023261197BDD0F00BF2BC2 /* InfoPlist.strings */,
 				31023264197BDD0F00BF2BC2 /* main.m */,
@@ -228,6 +231,7 @@
 			files = (
 				31023271197BDD0F00BF2BC2 /* Images.xcassets in Resources */,
 				31023263197BDD0F00BF2BC2 /* InfoPlist.strings in Resources */,
+				316C354F197BFE8C0021DFA4 /* circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
