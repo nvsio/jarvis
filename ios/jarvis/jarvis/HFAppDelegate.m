@@ -15,7 +15,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = [[HFViewController alloc] init];
     [self.window makeKeyAndVisible];
-    
+
+    application.idleTimerDisabled = YES;
+
     return YES;
 }
 

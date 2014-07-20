@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface HFViewController : UIViewController
+{
+    BOOL isDetecting;
+    IBOutlet UILabel* name;
+    IBOutlet UILabel* bio;
+}
 
 @end

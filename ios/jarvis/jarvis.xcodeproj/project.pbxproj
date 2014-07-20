@@ -20,7 +20,15 @@
 		3102327A197BDD1000BF2BC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3102325C197BDD0F00BF2BC2 /* UIKit.framework */; };
 		31023282197BDD1000BF2BC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31023280197BDD1000BF2BC2 /* InfoPlist.strings */; };
 		31023284197BDD1000BF2BC2 /* jarvisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31023283197BDD1000BF2BC2 /* jarvisTests.m */; };
-		316C354F197BFE8C0021DFA4 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 316C354E197BFE8C0021DFA4 /* circle.png */; };
+		318057FA197C10F00080E73E /* RekognitionSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 318057F7197C10F00080E73E /* RekognitionSDK.m */; };
+		318057FB197C10F00080E73E /* UIImageResize+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318057F9197C10F00080E73E /* UIImageResize+Rotate.m */; };
+		31805801197C11050080E73E /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 318057FE197C11050080E73E /* Base64.m */; };
+		31805802197C11050080E73E /* NSDictionary+HTTPBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 31805800197C11050080E73E /* NSDictionary+HTTPBody.m */; };
+		31805805197C11380080E73E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31805804197C11380080E73E /* CoreImage.framework */; };
+		31805807197C113E0080E73E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31805806197C113E0080E73E /* AssetsLibrary.framework */; };
+		31805809197C11470080E73E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31805808197C11470080E73E /* QuartzCore.framework */; };
+		3180580D197C13F70080E73E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3180580C197C13F70080E73E /* AVFoundation.framework */; };
+		3180580F197C40A20080E73E /* overlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3180580E197C40A20080E73E /* overlay.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,19 @@
 		3102327F197BDD1000BF2BC2 /* jarvisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jarvisTests-Info.plist"; sourceTree = "<group>"; };
 		31023281197BDD1000BF2BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31023283197BDD1000BF2BC2 /* jarvisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jarvisTests.m; sourceTree = "<group>"; };
-		316C354E197BFE8C0021DFA4 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		318057F6197C10F00080E73E /* ReKognitionSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReKognitionSDK.h; sourceTree = "<group>"; };
+		318057F7197C10F00080E73E /* RekognitionSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RekognitionSDK.m; sourceTree = "<group>"; };
+		318057F8197C10F00080E73E /* UIImageResize+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageResize+Rotate.h"; sourceTree = "<group>"; };
+		318057F9197C10F00080E73E /* UIImageResize+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageResize+Rotate.m"; sourceTree = "<group>"; };
+		318057FD197C11050080E73E /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		318057FE197C11050080E73E /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		318057FF197C11050080E73E /* NSDictionary+HTTPBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HTTPBody.h"; sourceTree = "<group>"; };
+		31805800197C11050080E73E /* NSDictionary+HTTPBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HTTPBody.m"; sourceTree = "<group>"; };
+		31805804197C11380080E73E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		31805806197C113E0080E73E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		31805808197C11470080E73E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3180580C197C13F70080E73E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3180580E197C40A20080E73E /* overlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = overlay.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3180580D197C13F70080E73E /* AVFoundation.framework in Frameworks */,
+				31805809197C11470080E73E /* QuartzCore.framework in Frameworks */,
+				31805807197C113E0080E73E /* AssetsLibrary.framework in Frameworks */,
+				31805805197C11380080E73E /* CoreImage.framework in Frameworks */,
 				3102325B197BDD0F00BF2BC2 /* CoreGraphics.framework in Frameworks */,
 				3102325D197BDD0F00BF2BC2 /* UIKit.framework in Frameworks */,
 				31023259197BDD0F00BF2BC2 /* Foundation.framework in Frameworks */,
@@ -101,6 +125,10 @@
 		31023257197BDD0F00BF2BC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3180580C197C13F70080E73E /* AVFoundation.framework */,
+				31805808197C11470080E73E /* QuartzCore.framework */,
+				31805806197C113E0080E73E /* AssetsLibrary.framework */,
+				31805804197C11380080E73E /* CoreImage.framework */,
 				31023258197BDD0F00BF2BC2 /* Foundation.framework */,
 				3102325A197BDD0F00BF2BC2 /* CoreGraphics.framework */,
 				3102325C197BDD0F00BF2BC2 /* UIKit.framework */,
@@ -112,10 +140,12 @@
 		3102325E197BDD0F00BF2BC2 /* jarvis */ = {
 			isa = PBXGroup;
 			children = (
+				3180580E197C40A20080E73E /* overlay.jpg */,
 				31023267197BDD0F00BF2BC2 /* HFAppDelegate.h */,
 				31023268197BDD0F00BF2BC2 /* HFAppDelegate.m */,
 				3102326D197BDD0F00BF2BC2 /* HFViewController.h */,
 				3102326E197BDD0F00BF2BC2 /* HFViewController.m */,
+				31805803197C110C0080E73E /* Dependencies */,
 				31023270197BDD0F00BF2BC2 /* Images.xcassets */,
 				3102325F197BDD0F00BF2BC2 /* Supporting Files */,
 			);
@@ -125,7 +155,6 @@
 		3102325F197BDD0F00BF2BC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				316C354E197BFE8C0021DFA4 /* circle.png */,
 				31023260197BDD0F00BF2BC2 /* jarvis-Info.plist */,
 				31023261197BDD0F00BF2BC2 /* InfoPlist.strings */,
 				31023264197BDD0F00BF2BC2 /* main.m */,
@@ -150,6 +179,29 @@
 				31023280197BDD1000BF2BC2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		318057FC197C10FA0080E73E /* ReKognition */ = {
+			isa = PBXGroup;
+			children = (
+				318057F6197C10F00080E73E /* ReKognitionSDK.h */,
+				318057F7197C10F00080E73E /* RekognitionSDK.m */,
+				318057F8197C10F00080E73E /* UIImageResize+Rotate.h */,
+				318057F9197C10F00080E73E /* UIImageResize+Rotate.m */,
+			);
+			name = ReKognition;
+			sourceTree = "<group>";
+		};
+		31805803197C110C0080E73E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				318057FC197C10FA0080E73E /* ReKognition */,
+				318057FD197C11050080E73E /* Base64.h */,
+				318057FE197C11050080E73E /* Base64.m */,
+				318057FF197C11050080E73E /* NSDictionary+HTTPBody.h */,
+				31805800197C11050080E73E /* NSDictionary+HTTPBody.m */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +252,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "greylock hackfest";
 				TargetAttributes = {
+					31023254197BDD0F00BF2BC2 = {
+						DevelopmentTeam = YA959M2KCE;
+					};
 					31023275197BDD1000BF2BC2 = {
 						TestTargetID = 31023254197BDD0F00BF2BC2;
 					};
@@ -229,9 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3180580F197C40A20080E73E /* overlay.jpg in Resources */,
 				31023271197BDD0F00BF2BC2 /* Images.xcassets in Resources */,
 				31023263197BDD0F00BF2BC2 /* InfoPlist.strings in Resources */,
-				316C354F197BFE8C0021DFA4 /* circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318057FB197C10F00080E73E /* UIImageResize+Rotate.m in Sources */,
 				3102326F197BDD0F00BF2BC2 /* HFViewController.m in Sources */,
+				31805802197C11050080E73E /* NSDictionary+HTTPBody.m in Sources */,
 				31023269197BDD0F00BF2BC2 /* HFAppDelegate.m in Sources */,
+				318057FA197C10F00080E73E /* RekognitionSDK.m in Sources */,
+				31805801197C11050080E73E /* Base64.m in Sources */,
 				31023265197BDD0F00BF2BC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,10 +428,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jarvis/jarvis-Prefix.pch";
 				INFOPLIST_FILE = "jarvis/jarvis-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +444,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jarvis/jarvis-Prefix.pch";
 				INFOPLIST_FILE = "jarvis/jarvis-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
