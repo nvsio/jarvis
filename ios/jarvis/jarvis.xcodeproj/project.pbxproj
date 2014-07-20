@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31023259197BDD0F00BF2BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31023258197BDD0F00BF2BC2 /* Foundation.framework */; };
+		3102325B197BDD0F00BF2BC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3102325A197BDD0F00BF2BC2 /* CoreGraphics.framework */; };
+		3102325D197BDD0F00BF2BC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3102325C197BDD0F00BF2BC2 /* UIKit.framework */; };
+		31023263197BDD0F00BF2BC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31023261197BDD0F00BF2BC2 /* InfoPlist.strings */; };
+		31023265197BDD0F00BF2BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31023264197BDD0F00BF2BC2 /* main.m */; };
+		31023269197BDD0F00BF2BC2 /* HFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31023268197BDD0F00BF2BC2 /* HFAppDelegate.m */; };
+		3102326F197BDD0F00BF2BC2 /* HFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3102326E197BDD0F00BF2BC2 /* HFViewController.m */; };
+		31023271197BDD0F00BF2BC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31023270197BDD0F00BF2BC2 /* Images.xcassets */; };
+		31023278197BDD1000BF2BC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31023277197BDD1000BF2BC2 /* XCTest.framework */; };
+		31023279197BDD1000BF2BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31023258197BDD0F00BF2BC2 /* Foundation.framework */; };
+		3102327A197BDD1000BF2BC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3102325C197BDD0F00BF2BC2 /* UIKit.framework */; };
+		31023282197BDD1000BF2BC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31023280197BDD1000BF2BC2 /* InfoPlist.strings */; };
+		31023284197BDD1000BF2BC2 /* jarvisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31023283197BDD1000BF2BC2 /* jarvisTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3102327B197BDD1000BF2BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3102324D197BDD0F00BF2BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31023254197BDD0F00BF2BC2;
+			remoteInfo = jarvis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31023255197BDD0F00BF2BC2 /* jarvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jarvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31023258197BDD0F00BF2BC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3102325A197BDD0F00BF2BC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3102325C197BDD0F00BF2BC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31023260197BDD0F00BF2BC2 /* jarvis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jarvis-Info.plist"; sourceTree = "<group>"; };
+		31023262197BDD0F00BF2BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31023264197BDD0F00BF2BC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31023266197BDD0F00BF2BC2 /* jarvis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jarvis-Prefix.pch"; sourceTree = "<group>"; };
+		31023267197BDD0F00BF2BC2 /* HFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFAppDelegate.h; sourceTree = "<group>"; };
+		31023268197BDD0F00BF2BC2 /* HFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFAppDelegate.m; sourceTree = "<group>"; };
+		3102326D197BDD0F00BF2BC2 /* HFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFViewController.h; sourceTree = "<group>"; };
+		3102326E197BDD0F00BF2BC2 /* HFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFViewController.m; sourceTree = "<group>"; };
+		31023270197BDD0F00BF2BC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31023276197BDD1000BF2BC2 /* jarvisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jarvisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31023277197BDD1000BF2BC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3102327F197BDD1000BF2BC2 /* jarvisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jarvisTests-Info.plist"; sourceTree = "<group>"; };
+		31023281197BDD1000BF2BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31023283197BDD1000BF2BC2 /* jarvisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jarvisTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31023252197BDD0F00BF2BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3102325B197BDD0F00BF2BC2 /* CoreGraphics.framework in Frameworks */,
+				3102325D197BDD0F00BF2BC2 /* UIKit.framework in Frameworks */,
+				31023259197BDD0F00BF2BC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31023273197BDD1000BF2BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31023278197BDD1000BF2BC2 /* XCTest.framework in Frameworks */,
+				3102327A197BDD1000BF2BC2 /* UIKit.framework in Frameworks */,
+				31023279197BDD1000BF2BC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3102324C197BDD0F00BF2BC2 = {
+			isa = PBXGroup;
+			children = (
+				3102325E197BDD0F00BF2BC2 /* jarvis */,
+				3102327D197BDD1000BF2BC2 /* jarvisTests */,
+				31023257197BDD0F00BF2BC2 /* Frameworks */,
+				31023256197BDD0F00BF2BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31023256197BDD0F00BF2BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31023255197BDD0F00BF2BC2 /* jarvis.app */,
+				31023276197BDD1000BF2BC2 /* jarvisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31023257197BDD0F00BF2BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31023258197BDD0F00BF2BC2 /* Foundation.framework */,
+				3102325A197BDD0F00BF2BC2 /* CoreGraphics.framework */,
+				3102325C197BDD0F00BF2BC2 /* UIKit.framework */,
+				31023277197BDD1000BF2BC2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3102325E197BDD0F00BF2BC2 /* jarvis */ = {
+			isa = PBXGroup;
+			children = (
+				31023267197BDD0F00BF2BC2 /* HFAppDelegate.h */,
+				31023268197BDD0F00BF2BC2 /* HFAppDelegate.m */,
+				3102326D197BDD0F00BF2BC2 /* HFViewController.h */,
+				3102326E197BDD0F00BF2BC2 /* HFViewController.m */,
+				31023270197BDD0F00BF2BC2 /* Images.xcassets */,
+				3102325F197BDD0F00BF2BC2 /* Supporting Files */,
+			);
+			path = jarvis;
+			sourceTree = "<group>";
+		};
+		3102325F197BDD0F00BF2BC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31023260197BDD0F00BF2BC2 /* jarvis-Info.plist */,
+				31023261197BDD0F00BF2BC2 /* InfoPlist.strings */,
+				31023264197BDD0F00BF2BC2 /* main.m */,
+				31023266197BDD0F00BF2BC2 /* jarvis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3102327D197BDD1000BF2BC2 /* jarvisTests */ = {
+			isa = PBXGroup;
+			children = (
+				31023283197BDD1000BF2BC2 /* jarvisTests.m */,
+				3102327E197BDD1000BF2BC2 /* Supporting Files */,
+			);
+			path = jarvisTests;
+			sourceTree = "<group>";
+		};
+		3102327E197BDD1000BF2BC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3102327F197BDD1000BF2BC2 /* jarvisTests-Info.plist */,
+				31023280197BDD1000BF2BC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31023254197BDD0F00BF2BC2 /* jarvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31023287197BDD1000BF2BC2 /* Build configuration list for PBXNativeTarget "jarvis" */;
+			buildPhases = (
+				31023251197BDD0F00BF2BC2 /* Sources */,
+				31023252197BDD0F00BF2BC2 /* Frameworks */,
+				31023253197BDD0F00BF2BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jarvis;
+			productName = jarvis;
+			productReference = 31023255197BDD0F00BF2BC2 /* jarvis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31023275197BDD1000BF2BC2 /* jarvisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3102328A197BDD1000BF2BC2 /* Build configuration list for PBXNativeTarget "jarvisTests" */;
+			buildPhases = (
+				31023272197BDD1000BF2BC2 /* Sources */,
+				31023273197BDD1000BF2BC2 /* Frameworks */,
+				31023274197BDD1000BF2BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3102327C197BDD1000BF2BC2 /* PBXTargetDependency */,
+			);
+			name = jarvisTests;
+			productName = jarvisTests;
+			productReference = 31023276197BDD1000BF2BC2 /* jarvisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3102324D197BDD0F00BF2BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "greylock hackfest";
+				TargetAttributes = {
+					31023275197BDD1000BF2BC2 = {
+						TestTargetID = 31023254197BDD0F00BF2BC2;
+					};
+				};
+			};
+			buildConfigurationList = 31023250197BDD0F00BF2BC2 /* Build configuration list for PBXProject "jarvis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3102324C197BDD0F00BF2BC2;
+			productRefGroup = 31023256197BDD0F00BF2BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31023254197BDD0F00BF2BC2 /* jarvis */,
+				31023275197BDD1000BF2BC2 /* jarvisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31023253197BDD0F00BF2BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31023271197BDD0F00BF2BC2 /* Images.xcassets in Resources */,
+				31023263197BDD0F00BF2BC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31023274197BDD1000BF2BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31023282197BDD1000BF2BC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31023251197BDD0F00BF2BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3102326F197BDD0F00BF2BC2 /* HFViewController.m in Sources */,
+				31023269197BDD0F00BF2BC2 /* HFAppDelegate.m in Sources */,
+				31023265197BDD0F00BF2BC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31023272197BDD1000BF2BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31023284197BDD1000BF2BC2 /* jarvisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3102327C197BDD1000BF2BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31023254197BDD0F00BF2BC2 /* jarvis */;
+			targetProxy = 3102327B197BDD1000BF2BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31023261197BDD0F00BF2BC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31023262197BDD0F00BF2BC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31023280197BDD1000BF2BC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31023281197BDD1000BF2BC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31023285197BDD1000BF2BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31023286197BDD1000BF2BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31023288197BDD1000BF2BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jarvis/jarvis-Prefix.pch";
+				INFOPLIST_FILE = "jarvis/jarvis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31023289197BDD1000BF2BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jarvis/jarvis-Prefix.pch";
+				INFOPLIST_FILE = "jarvis/jarvis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3102328B197BDD1000BF2BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jarvis.app/jarvis";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jarvis/jarvis-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "jarvisTests/jarvisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3102328C197BDD1000BF2BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jarvis.app/jarvis";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jarvis/jarvis-Prefix.pch";
+				INFOPLIST_FILE = "jarvisTests/jarvisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31023250197BDD0F00BF2BC2 /* Build configuration list for PBXProject "jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31023285197BDD1000BF2BC2 /* Debug */,
+				31023286197BDD1000BF2BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31023287197BDD1000BF2BC2 /* Build configuration list for PBXNativeTarget "jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31023288197BDD1000BF2BC2 /* Debug */,
+				31023289197BDD1000BF2BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3102328A197BDD1000BF2BC2 /* Build configuration list for PBXNativeTarget "jarvisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3102328B197BDD1000BF2BC2 /* Debug */,
+				3102328C197BDD1000BF2BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3102324D197BDD0F00BF2BC2 /* Project object */;
+}
