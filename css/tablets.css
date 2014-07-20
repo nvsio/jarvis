@@ -1,0 +1,24 @@
+#faq ul li {
+	width: 80%;
+}
+
+#judges ul li {
+	text-align: center;
+}
+
+#judges ul li p {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#judges ul li strong
+{
+	margin-bottom: 30px;
+}
+
+#judges > div > div > ul {
+	text-align: center;
+	position: relative;
+	right: 20px;
+}

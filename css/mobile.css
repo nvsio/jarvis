@@ -1,0 +1,78 @@
+body {
+	overflow-x: hidden;
+}
+section {
+	background: url('../img/background-stars.png') 50% 50% no-repeat #000000;
+}
+.badass {
+	font-size: 50px;
+	line-height: 30px;
+}
+
+nav {
+	width: inherit;
+}
+
+#sponsor-wall img {
+	max-height: 50px;
+	filter: url(filters.svg#grayscale);
+	margin: 20px;
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+#about {
+	display: none;
+}
+
+.mobileonly {
+	display: block;
+}
+
+#header {
+	background: url('../img/background-stars.png') no-repeat #000000;
+}
+
+#judges > div > div > ul > li {
+	text-align: center;
+}
+
+#sponsor-wall > a:nth-child(12) > img {
+	width: 100%;
+}
+
+#trailer {
+	display: none;
+}
+
+#sponsor-wall > a[href="http://cardlytics.com"] > img{
+	max-height: 100px;
+}
+
+#sponsor-wall > a[href="http://bitpay.com"] > img{
+	max-height: 100px;
+}
+
+#judges ul li p {
+	text-align: center;
+}
+
+#judges > div > div > ul {
+
+	text-align: center;
+	position: relative;
+	right: 20px;
+}
+
+#logo-container {
+	margin-top: -100px;
+}
+
+video {
+	display: none;
+}

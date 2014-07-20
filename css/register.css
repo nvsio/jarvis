@@ -1,0 +1,41 @@
+body {
+	background: url('../img/background-stars.png') no-repeat #000000;
+}
+
+form {
+	margin-top: 5%;
+}
+.form-control{
+	width: 400px;
+	margin: 20px auto;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 3px solid #EAB600;
+}
+
+.vertical-center {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+input[type=submit], input[type=button] {
+	width: 200px;
+	border-radius: 999px;
+}
+
+input:hover {
+	border-color: lightblue;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+	border-color: lightblue;
+}
+
+p {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+}

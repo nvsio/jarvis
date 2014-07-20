@@ -1,0 +1,280 @@
+html, body {
+	height: 100%;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+canvas {
+	-webkit-transform: translateZ(0px);
+	-moz-transform: translateZ(0px);
+	-ms-transform: translateZ(0px);
+	-o-transform: translateZ(0px);
+	transform: translateZ(0px);
+	position: absolute;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.mobileonly {
+	display: none;
+}
+.fullheight {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+.row-fluid {
+}
+.vertical-center {
+	width: 100%;
+	height: 100%; 
+	display:table-cell; 
+	vertical-align: middle;
+}
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+.section {
+	background: url('../img/background-stars.png') no-repeat #000000;
+	width: 100%;
+	min-height: 100%;
+	text-align: center;
+}
+
+#header {
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	text-align: center;
+	height: 88%;
+}
+
+.grandprizeyo {
+	font-size: 1.5em;
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 40px;
+}
+
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url('../video/puddle.jpg') no-repeat;
+	background-size: cover;
+}
+
+nav {
+	width: 650px;
+	margin: 0 auto;
+	background: none;
+	color: #ffffff;
+	line-height: 40px;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.navbar-nav>li>a {
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.navbar-nav>li>a:hover {
+	background: none;
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+.navbar-default {
+	border: 0;
+	background: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fcd036;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fedb62;
+	position: relative;
+	bottom: 3px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background: none;
+}
+
+
+.badass {
+	  font-family: 'Plak Black Extra Condensed', sans-serif;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	  letter-spacing: 4px;
+	  margin-bottom: 30px;
+	  line-height: 80px;
+	  font-size: 120px;
+	  margin-top: 20px;
+}
+
+#about p.copy {
+	width: 40%;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #97b4ca;
+	font-weight: 1;
+	font-size: 1.3em;
+}
+
+#about {
+	text-align: center;
+}
+
+.apply {
+	position: relative;	
+	top: 30px;
+	border: 3px solid #ffffff;
+	padding: 10px 20px;
+	border-radius: 9999px;
+	color: #ffffff;
+}
+
+.breaker {
+	height: 50px;
+	margin: 50px 0;
+}
+
+#faq {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-family: 100;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../img/background-stars.png') no-repeat #000000;
+}
+
+#faq .badass {
+	font-size: 70px;
+}
+
+#faq .questions ul {
+	list-style: none;
+	text-align: left;
+}
+
+#faq .questions {
+	text-align: center;
+	margin: 0 10%;
+}
+
+#faq .question {
+	font-weight: 900;
+	margin-top: 10px;
+
+}
+
+#faq .answer {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-weight: 1;
+	font-size: 1em;
+	margin-left: 10px;
+	color: #97b4ca;
+}
+
+#sponsors {
+}
+
+#sponsors .badass {
+	font-size: 70px;
+}
+
+#sponsors ul {
+	list-style: none;
+}
+
+#sponsors ul li {
+	float: left;
+}
+
+
+#sponsor-wall img {
+	max-height: 300px;
+	height: 100px;
+	filter: url(filters.svg#grayscale);
+	margin: 20px;
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+#sponsor-wall img:hover{
+	
+		filter: none;
+	    -webkit-filter: grayscale(0);
+}
+
+#judges {
+	background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../img/background-stars.png') no-repeat #000000;
+}
+
+#judges .badass {
+	font-size: 70px;
+}
+
+#judges ul {
+	list-style: none;
+}
+
+#judges ul li {
+	margin-top: 50px;
+}
+
+#judges ul li img {
+	height: 100px;
+	border-radius: 9999px;
+	border: 3px solid #ffffff;
+}
+
+#judges ul li {
+	text-align: left;
+}
+
+#judges ul li strong {
+	margin-left: 10px;
+}
+
+#judges ul li p {
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-weight: 1;
+	font-size: 1em;
+	margin-left: 10px;
+	color: #97b4ca;
+}
+
+#trailer .badass {
+	font-size: 70px;
+}
+
+.modal-header {
+	border: none;
+}
